@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 842px;
+    /* background-color: black; */
+    margin-left: 162px;
+    margin-top: 20px;
+
+}
+
+.inputt{
+    height: 34px;
+    width: 582px;
+    background-color: #f3f3f3;
+    outline: none;
+    border: #0c0c0c 2px solid;
+}

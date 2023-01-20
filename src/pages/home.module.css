@@ -1,0 +1,412 @@
+.conatiner{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:0.5fr 12.5fr 8fr 13fr 8fr 10fr 5fr;
+    grid-template-areas:"nav nav nav nav"
+                        "slider slider slider slider"
+                        " wineshowcase wineshowcase wineshowcase wineshowcase"
+                        " faqsec faqsec faqsec faqsec"
+                        " noAlcoWine noAlcoWine noAlcoWine noAlcoWine"
+                        " subscriberletter subscriberletter subscriberletter subscriberletter"
+                          "footer footer footer footer";
+    grid-gap:0.3rem;
+    font-weight:800;
+    font-size:12px;
+    color:red;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+.nav{
+    background-color: #f3f3f3;
+    grid-area:nav;
+}
+
+
+
+
+.slidercase{
+    background-color: #f3f3f3;
+    grid-area:slider;
+}
+
+.sldr{
+    height: 760px;
+    background-color: black;
+}
+ .mySwiper{
+    height: 760px;
+    background-color: blue;
+}
+
+.sld1{
+    height: 100vh;
+    background-color: pink;
+} 
+.sld2{
+    height: 100vh;
+    background-color: brown;
+}
+.sld3{
+    height: 100vh;
+    background-color: violet;
+}
+
+
+
+.showcaseofwine{
+    background-color: #f3f3f3;
+    grid-area:wineshowcase;
+    display: flex;
+    flex-direction: row;
+ border-top: 1px #0c0c0c solid;
+ border-bottom: 1px #0c0c0c solid;
+}
+
+.showmorebtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f3f3f3 ;
+    height: 429px;
+    width: 305px;
+    margin-top: 70px;
+    border: #0c0c0c solid 1px;
+}
+
+.wrapperofshowmorebtn{
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0c0c;
+    /* background-color: red;
+    width: 300px;
+    height: 400px; */
+}
+
+.headingOfWine{
+    color: #0c0c0c;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.watchmorebtn{
+    width: 133px;
+    height: 38px;
+    background-color: #0c0c0c;
+    color: #f3f3f3;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 250ms ease-in;
+}
+
+.watchmorebtn:hover{
+    box-shadow: 0px 5px 15px -5px #000000;
+    cursor: pointer;
+}
+
+.faqsection{
+    background-color: pink;
+    grid-area:faqsec;
+}
+
+.noAlcoholWine{
+    background-color: #f3f3f3;
+    grid-area:noAlcoWine;
+    display: flex;
+    flex-direction: column;
+ border-top: 1px #0c0c0c solid;
+ border-bottom: 1px #0c0c0c solid;
+}
+
+.subscriberLetter{
+    background-color: blue;
+    grid-area:subscriberletter;
+}
+
+.footer{
+    background-color: #36393d;
+    grid-area:footer;
+}
+
+.image1{
+    position: relative;
+    height:760px;
+    width:1800px;
+}
+.heading1{
+    position:absolute;
+    display: flex;
+   
+    top:85px;
+    color: white;
+    left: 150px;
+    font-size: 100px;
+    font-weight: 500;
+    text-shadow: 1px 2px #0c0c0c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.heading2{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    bottom: 395px;
+    color: white;
+    left: 160px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading3{
+    position:absolute;
+    flex-direction: column;
+    padding-top: 5px;
+    bottom:360px;
+    color: white;
+    left: 160px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn1{
+    position:absolute;
+    bottom: 320px;
+    left: 300px;
+    font-family: 'Roboto', sans-serif;
+    height: 45px;
+    width: 125px;
+    color: white;
+    background-color: #b44244;
+    outline: none;
+    border: none;
+    transition: all 1 linear;
+}
+.btn1:hover{
+    background-color:#8f2e30 ;
+}
+
+.semiheading1{
+    color: #b44244;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.image2{
+    position: relative;
+    height:760px;
+    width:1800px;
+}
+
+.image3{
+    position: relative;
+    height:760px;
+    width:1800px;
+}
+.parent_2{
+    /* position:absolute;
+    top: 130px; */
+    display: flex;
+    flex-direction: column;
+    z-index: inherit;
+    gap: 10px;
+    height: 450px;
+    width: 700px;
+    /* right: 250px; */
+    background-color: #0c0c0c;
+}
+
+.heading2_1{
+    position:absolute;
+    z-index: 3;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading3{
+    position: absolute;
+   
+}
+
+.btn2{
+    position:absolute;
+   
+
+}
+.noAlcoholWineTitleContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    height: 50px;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 600px;
+   
+}
+.noAlcoholWineTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 550px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #c84648;
+    margin:5px 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.noalcol{
+        display: flex;
+        flex-direction: row;
+        /* background-color: #0c0c0c; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 500px;
+        width: 1000px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+    .conatiner{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns:0.5fr;
+        grid-template-rows:0.1fr 2fr 2fr 3fr 2fr 3fr 2fr;
+        grid-template-areas:"nav "
+                            "slider "
+                            " wineshowcase "
+                            " faqsec "
+                            " noAlcoWine "
+                            " subscriberletter "
+                              "footer ";
+        grid-gap:0.3rem;
+        font-weight:800;
+        font-size:12px;
+        color:red;
+        text-align:center;
+        box-sizing: border-box;
+    }
+
+    .nav{
+        background-color: #f3f3f3;
+        grid-area:nav;
+       
+    }
+    
+    
+    
+    
+    .slidercase{
+        background-color: #f3f3f3;
+        height: 400px;
+        width: 100%;
+        grid-area:slider;
+    }
+
+    
+    .sldr{
+            height: 100%;
+            width: 322px;
+            /* width: 100%; */
+            background-color: black;
+        }
+    .mySwiper{
+            height: 100%;
+            width: 322px;
+            background-color: blue;
+        }
+
+    .sld1{
+                height: 100%;
+                width: 322px;
+                background-color: pink;
+            }
+
+    .image1{
+                position: relative;
+                height: 100%;
+                width: 322px;
+            }
+
+     
+            
+            
+    .sld2{
+                height: 100%;
+                width: 322px;
+                background-color: brown;
+            }
+    .image2{
+                position: relative;
+                height: 100%;
+                width: 322px;
+            }
+
+    
+    .sld3{
+                height: 100%;
+                width: 322px;
+                background-color: violet;
+            }
+
+    .image3{
+                position: relative;
+                height: 100%;
+                width: 322px;
+            }
+
+    .showcaseofwine{
+        background-color: #f3f3f3;
+        grid-area:wineshowcase;
+        display: flex;
+        flex-direction: column;
+     border-top: 1px #0c0c0c solid;
+     border-bottom: 1px #0c0c0c solid;
+    }
+    
+
+    .faqsection{
+        background-color: pink;
+        grid-area:faqsec;
+    }
+    
+    .noAlcoholWine{
+        background-color: #f3f3f3;
+        grid-area:noAlcoWine;
+        display: flex;
+        flex-direction: column;
+     border-top: 1px #0c0c0c solid;
+     border-bottom: 1px #0c0c0c solid;
+    }
+    
+    .subscriberLetter{
+        background-color: blue;
+        grid-area:subscriberletter;
+    }
+    
+    .footer{
+        background-color: #36393d;
+        grid-area:footer;
+    }
+}
+
+
